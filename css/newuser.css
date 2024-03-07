@@ -1,0 +1,94 @@
+/* Reset default margin and padding */
+body, h1, form, fieldset, legend {
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+    }
+    
+    /* Center the heading */
+    h1 {
+     text-align: center;
+     margin-top: 20px;
+     /* color: #2c3e50; */
+     color: black;
+     border:11px double #3498db ;
+     border-radius: 11px;
+     margin-top: 2rem;
+     margin-bottom: 0rem;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 0.5rem;
+    }
+    
+    /* Style the link */
+    div a {
+     text-decoration: none;
+     color: #3498db;
+    }
+    
+    /* Center the link */
+    div {
+     /* text-align: right; */
+     margin-top: 10px;
+    }
+    
+    /* Style the fieldset */
+    fieldset {
+     margin: 20px;
+     border: 2px solid #3498db;
+     border-radius: 10px;
+     padding: 20px;
+    }
+    
+    /* Style the legend */
+    legend {
+     font-weight: bold;
+     color: #3498db;
+    }
+    
+    /* Style the input fields and buttons */
+    input[type="text"], input[type="button"] {
+     margin-bottom: 10px;
+     padding: 10px;
+     width: 100%;
+     box-sizing: border-box;
+    }
+    
+    /* Style the title span */
+    .title {
+     display: block;
+     font-weight: bold;
+     color: #2c3e50;
+     margin-bottom: 1rem;
+    }
+    
+    /* Align the form elements */
+    form {
+     text-align: left;
+    }
+    
+    /* Style the buttons */
+    input[type="button"] {
+     background-color: #3498db;
+     color: white;
+     border: none;
+     cursor: pointer;
+    }
+    
+    /* Hover effect for buttons */
+    input[type="button"]:hover {
+     background-color: #2980b9;
+    }
+    .container{
+        margin: 0 33%;
+        margin-top: 1rem;
+        border: 2px double #3498db;
+        border-radius: 10px;
+        padding: 2rem;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image:-webkit-radial-gradient(circle,white, white,#2980b9);
+    }
